@@ -6,12 +6,13 @@ Simple Flask application as a final challenge in the IGTI Python Developer Bootc
 
   - Python
   - Flask
-  - Scikit-learn
+  - Scikit-learn: Algorithms: KNeighbors, Tree Decision and Multi-layer Perceptron (MLP) 
   - Google Colab (for the initial part where I chose among the three models)
 
-### Data Files:
-  - Machine Learning Model:  
-  - Google Colab code: 
+### Files:
+  - Machine Learning Model (Multi-layer Perceptron): prediction_model.sav  
+  - Google Colab code: choosing_model.ipynb
+  - Entry data: diabetes_data.csv
 
 ### Setup:
   - Install Flask
