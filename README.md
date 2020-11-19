@@ -24,4 +24,4 @@ python -m pip install flask
 ```
 
 <br/><br/>
-![](gofinance.gif)
+![](diabetes_predictor.gif)
