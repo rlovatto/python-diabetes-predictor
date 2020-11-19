@@ -6,7 +6,11 @@ Simple Flask application as a final challenge in the IGTI Python Developer Bootc
 
   - Python
   - Flask
-  - Scikit-learn: Algorithms: KNeighbors, Tree Decision and Multi-layer Perceptron (MLP) 
+  - Scikit-learn: <br/>
+      Algorithms: 
+      - KNeighbors
+      - Tree Decision
+      - Multi-layer Perceptron (MLP) 
   - Google Colab (for the initial part where I chose among the three models)
 
 ### Files:
