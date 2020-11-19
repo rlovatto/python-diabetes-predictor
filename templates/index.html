@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Diabetes Predictor</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+   </head>
+   <body>
+      <div class="container">
+         <div class="testbox">
+            <form action="/" method="post">
+               <h2>Diabetes Predictor</h2>
+               <div class="item">
+                  <p>Number of pregnancies<span class="required">*</span></p>
+                  <input type="text" name="gest" value="{{ data.form.gest }}" />
+               </div>
+               <div class="item">
+                  <p>Glucose concentration<span class="required">*</span></p>
+                  <input type="text" name="glic" value="{{ data.form.glic }}" />
+               </div>
+               <div class="item">
+                  <p>Diastolic pressure (mmHg)<span class="required">*</span></p>
+                  <input type="text" name="diastolic_pre" value="{{ data.form.diastolic_pre }}" />
+               </div>
+               <div class="item">
+                  <p>Triceps skinfold thickness (mm)<span class="required">*</span></p>
+                  <input type="text" name="tri_st" value="{{ data.form.tri_st }}" />
+               </div>
+               <div class="item">
+                  <p>Insulin (mUI/ml)<span class="required">*</span></p>
+                  <input type="text"  name="insu" value="{{ data.form.insu }}" />
+               </div>
+               <div class="item">
+                  <p>Body Mass Index<span class="required">*</span></p>
+                  <input type="text" name="bmi" value="{{ data.form.bmi }}" />
+               </div>
+               <div class="item">
+                  <p>Genetic inheritance<span class="required">*</span></p>
+                  <input type="text" name="ge_inh" value="{{ data.form.ge_inh }}"  />
+               </div>
+               <div class="item">
+                  <p>Age (years)<span class="required">*</span></p>
+                  <input type="text" name="age" value="{{ data.form.age }}"  />
+               </div>
+               <div class="btn-block">
+                  <button type="submit">Send</button>
+               </div>
+            </form>
+         </div>
+         <div class="testbox result">
+            {% if data.message %}
+            <p class="{{ data.css_class }}">{{ data.message }}</p>
+            {% endif %}
+         </div>
+      </div>
+   </body>
+</html>
