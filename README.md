@@ -19,9 +19,26 @@ Simple Flask application as a final challenge in the IGTI Python Developer Bootc
   - Entry data: diabetes_data.csv
 
 ### Setup:
-  - Install Flask
+  - Open the terminal and create a folder (I used Power Shell in Windows)
+  - Clone the repository
+   ```  
+git clone https://github.com/rlovatto/python-diabetes-predictor.git
+```
+  - Install virtual env and activate it
+  ```
+  python -m pip install --user virtualenv
+  cd python-diabetes-predictor
+  py -m venv diabetesenv
+  .\diabetesenv\Scripts\activate
+  ```
+  If you are in the virtualenv your terminal should looks like this:
+  ![](terminal_venv_activated.png)
+  - Install dependencies
   ```  
-python -m pip install flask
+pip install Flask
+pip install numpy
+pip install joblib
+pip install scikit-learn
 ```
   - Run the project:
   ```
