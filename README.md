@@ -31,8 +31,8 @@ git clone https://github.com/rlovatto/python-diabetes-predictor.git
   py -m venv diabetesenv
   .\diabetesenv\Scripts\activate
   ```
-  If you are in the virtualenv your terminal should looks like this:
-  ![](terminal_venv_activated.png)
+  If you are in the virtualenv your terminal should looks like this: </br></br>
+  ![](terminal_venv_activated.PNG)
   - Install dependencies
   ```  
 pip install Flask
