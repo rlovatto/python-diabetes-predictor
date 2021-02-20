@@ -31,7 +31,7 @@ git clone https://github.com/rlovatto/python-diabetes-predictor.git
   py -m venv diabetesenv
   .\diabetesenv\Scripts\activate
   ```
-  If you are in the virtualenv your terminal should looks like this: </br></br>
+  If you are in the virtualenv your terminal should look like this: </br></br>
   ![](terminal_venv_activated.PNG)
   - Install dependencies
   ```  
